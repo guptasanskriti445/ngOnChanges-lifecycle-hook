@@ -1,0 +1,8 @@
+<hello name="{{ name }}"></hello>
+<p>Start editing to see some magic happen :)</p>
+
+<input [(ngModel)]="firstName" />
+<input [(ngModel)]="lastName" />
+
+<app-child-component [firstName]="firstName" [lastName]="lastName">
+</app-child-component>
